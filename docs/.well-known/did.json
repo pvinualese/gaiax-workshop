@@ -3,10 +3,10 @@
     "https://www.w3.org/ns/did/v1",
     "https://w3id.org/security/suites/jws-2020/v1"
   ],
-  "id": "did:web:pvinualese.github.io",
+  "id": "did:web:pvinualese.github.io:gaiax-workshop",
   "verificationMethod": [
     {
-      "id": "did:web:pvinualese.github.io#key-1",
+      "id": "did:web:pvinualese.github.io:gaiax-workshop#key-1",
       "type": "JsonWebKey2020",
       "publicKeyJwk": {
         "kty": "RSA",
@@ -17,6 +17,6 @@
     }
   ],
   "assertionMethod": [
-    "did:web:pvinualese.github.io#key-1"
+    "did:web:pvinualese.github.io:gaiax-workshop#key-1"
   ]
 }
