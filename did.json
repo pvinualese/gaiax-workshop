@@ -1,0 +1,24 @@
+{
+  "@context": [
+    "https://www.w3.org/ns/did/v1",
+    "https://w3c-ccg.github.io/lds-jws2020/contexts/v1/"
+  ],
+  "id": "did:web:raw.githubusercontent.com:pvinualese:gaiax-workshop:master",
+  "verificationMethod": [
+    {
+      "id": "did:web:raw.githubusercontent.com:pvinualese:gaiax-workshop:master#key-1",
+      "type": "JsonWebKey2020",
+      "publicKeyJwk": {
+        "kty": "RSA",
+        "n": "xhlZeFUrTS48pZRjNJrR53g01MB0KcIjgIT97o5cz40KhMa0Le_ah84XDGArO5otzJe3rUf5xoK6dDHijTQJkt5EEs0BpD2zU8MSb4fGrTfIG6KrZ7GJiaxc71NCqGN1uFrMgu1NWbF9LTyr4J7gPcsaE5Rd1zBj4-kATr8AoFdajPDXceVJPooovxXSEaYyVafmNdncbKOaSa23sARRzcamxrSNNYZWA45IEnwCTJktRAG1IV6W2N22_SsNt7mcQA3hi9DEmJWoI3SL7azeDxeb0YcEkGU4SEsedePWI7OrIBLwptAjAcx__DyIFu4CdQ2KaGeO6B35wDszVmzSMQ",
+        "e": "AQAB",
+        "alg": "RS256",
+        "x5u": "https://raw.githubusercontent.com/pvinualese/gaiax-workshop/master/cert.pem"
+      }
+    }
+  ],
+  "assertionMethod": [
+    "did:web:raw.githubusercontent.com:pvinualese:gaiax-workshop:master#key-1"
+  ]
+}
+
